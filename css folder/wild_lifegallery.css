@@ -1,0 +1,55 @@
+*{
+    background: url(../asset/1.jpg);
+    background-size: cover;
+    background-size: auto;
+}
+body{
+    margin:0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    float:right;
+    padding:1em;
+    font-family: fantasy;
+    
+}
+
+.container1{
+    text-align: center;
+}
+h2,h3{
+    font-family: fantasy;
+    line-height: 9rem;
+    font-size: 5em;
+    text-align: center;
+    color:darkolivegreen;
+    border-bottom: 2px solid darkkhaki;
+    width: 400px;
+    border-right: 2px solid darkkhaki;
+    margin-top:10px;
+}
+span{
+    font-size: 6rem;
+}
+button{
+    border-radius: 9em;
+}
+a{
+    color: chocolate;text-decoration: none;
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    margin:10px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

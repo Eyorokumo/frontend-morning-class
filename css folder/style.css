@@ -1,0 +1,45 @@
+* {
+    text-align: right;
+}
+body{
+    background: url('../asset/22.jpg');
+    background-size:cover;
+    background-repeat: repeat-x;
+    height:500px;
+}
+
+h2{
+    color:brown
+}
+
+h2+p:hover{
+    color:burlywood;
+    text-align: center;
+    border:5px solid rgba(232, 255, 232, 0.5);
+    cursor: pointer;
+}
+p{
+    color:rgb(204, 22, 52);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+.class:first-child {
+    border:5px dashed green;
+}
+.active{
+    color:coral;
+}
+
+#div1{
+background-color: rgba(323, 255, 323, 0.3);
+}
+
+
+#div2{
+    background-color: rgba(303, 205, 303, 0.3);
+    }
